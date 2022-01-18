@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <Title>Registration Form</Title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header><h1>Registrtaion Form</h1></header>
+        <form class="name">
+           <section class="registr"> 
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+           </section>
+           </form>
+            <form class="gender">
+            <p>Gender</p>
+            <input type="radio" id="male" name="registr" value="Male">
+            <label for="male">Male</label> <br>
+            <input type="radio" id="female" name="registr" value="Female">
+            <label for="female">Female</label>
+            </form>
+            <form id="email">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email">
+            </form>
+            <form>
+                <label for="country" id="country_lab">Country</label>
+                <select name="country" id="country">
+                    <option value="chosing" selected disabled hidden>Choose Country</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="mexico">Mexico</option>
+                </select> 
+                </form>
+                <form>
+           <input type="submit" value="Submit" class="button">
+           </form>
+    </body>
+</html>
